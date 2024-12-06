@@ -1,4 +1,4 @@
-import type { Id } from "./basics.type";
+import type { Id } from "../basics.type";
 
 /**
  * In case some federations use locally different codes / isoCodes

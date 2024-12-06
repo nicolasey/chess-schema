@@ -1,4 +1,4 @@
-import type { Id } from "./basics.type";
+import type { Id } from "../basics.type";
 
 export type Title = {
   id: Id;
