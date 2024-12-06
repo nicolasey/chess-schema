@@ -1,1 +1,2 @@
-console.log("Hello via Bun!");
+export * from "./schema/title.type";
+export * from "./schema/federation.type";
