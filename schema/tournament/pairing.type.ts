@@ -36,17 +36,17 @@ export type Forfeit = AllocatedBye | HalfPointBye | LostForfeit;
 export type AllocatedBye = {
   white: Id;
   scoreWhite: Result.WIN;
-  forfeited: true;
+  forfeitedWhite: true;
 };
 
 export type HalfPointBye = {
   white: Id;
   scoreWhite: Result.DRAW;
-  forfeited: true;
+  forfeitedWhite: true;
 };
 
 export type LostForfeit = {
   white: Id;
   scoreWhite: Result.LOST;
-  forfeited: true;
+  forfeitedWhite: true;
 };
