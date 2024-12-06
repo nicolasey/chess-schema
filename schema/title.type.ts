@@ -1,5 +1,7 @@
+import type { Id } from "./basics.type";
+
 export type Title = {
-  id: string | number;
+  id: Id;
   label: string;
   fide_slug: string;
 
